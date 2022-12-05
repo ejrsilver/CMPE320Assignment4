@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053CDD62293E73A100A43F3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 053CDD61293E73A100A43F3B /* main.cpp */; };
+		053CDD6C293E7EEF00A43F3B /* TestGoodShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 053CDD68293E7EEF00A43F3B /* TestGoodShapes.cpp */; };
+		053CDD71293E877E00A43F3B /* ShapesGood.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 053CDD70293E877E00A43F3B /* ShapesGood.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		053CDD5E293E73A100A43F3B /* CMPE320Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CMPE320Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
-		053CDD61293E73A100A43F3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		053CDD68293E7EEF00A43F3B /* TestGoodShapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestGoodShapes.cpp; sourceTree = "<group>"; };
+		053CDD6F293E812800A43F3B /* ShapesGood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapesGood.h; sourceTree = "<group>"; };
+		053CDD70293E877E00A43F3B /* ShapesGood.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShapesGood.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,9 @@
 		053CDD55293E73A100A43F3B = {
 			isa = PBXGroup;
 			children = (
-				053CDD60293E73A100A43F3B /* CMPE320Assignment4 */,
+				053CDD70293E877E00A43F3B /* ShapesGood.cpp */,
+				053CDD6F293E812800A43F3B /* ShapesGood.h */,
+				053CDD68293E7EEF00A43F3B /* TestGoodShapes.cpp */,
 				053CDD5F293E73A100A43F3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +57,6 @@
 				053CDD5E293E73A100A43F3B /* CMPE320Assignment4 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		053CDD60293E73A100A43F3B /* CMPE320Assignment4 */ = {
-			isa = PBXGroup;
-			children = (
-				053CDD61293E73A100A43F3B /* main.cpp */,
-			);
-			path = CMPE320Assignment4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +116,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053CDD62293E73A100A43F3B /* main.cpp in Sources */,
+				053CDD71293E877E00A43F3B /* ShapesGood.cpp in Sources */,
+				053CDD6C293E7EEF00A43F3B /* TestGoodShapes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
